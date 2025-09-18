@@ -1,0 +1,9 @@
+name: Deploy Worker 
+on: [push] 
+jobs: 
+  deploy: 
+    runs-on: ubuntu-latest 
+    steps: 
+      - uses: actions/checkout@v3 
+      - name: Publish 
+        run: npx wrangler deploy 

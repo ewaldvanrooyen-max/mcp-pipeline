@@ -1,0 +1,1 @@
+// Placeholder MCP Worker entrypoint 
